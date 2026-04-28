@@ -59,7 +59,7 @@ export default function Home() {
                 </span>
               </h1>
               <p className="text-lg text-slate-400 mb-8 max-w-lg">
-                Mulai investasi dengan modal minimal Rp 50.000. Profit masuk otomatis setiap 24 jam.
+                Mulai investasi dengan modal minimal Rp 10.000. Profit masuk otomatis setiap 24 jam.
                 Pilih dari 5 plan investasi sesuai kebutuhan Anda.
               </p>
               <div className="flex flex-wrap gap-4">
@@ -199,7 +199,7 @@ export default function Home() {
               Siap Memulai Investasi?
             </h2>
             <p className="text-slate-800 mb-8 max-w-xl mx-auto">
-              Daftar sekarang dan mulai perjalanan investasi Anda. Modal minimal hanya Rp 50.000.
+              Daftar sekarang dan mulai perjalanan investasi Anda. Modal minimal hanya Rp 10.000.
             </p>
             <Link
               to="/register"

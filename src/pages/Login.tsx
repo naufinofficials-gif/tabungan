@@ -93,11 +93,6 @@ export default function Login() {
             </button>
           </form>
 
-          <div className="mt-4 p-3 bg-slate-800/50 rounded-lg text-xs text-slate-400">
-            <p className="font-medium text-slate-300 mb-1">Akun Demo:</p>
-            <p>Admin: username <span className="text-amber-400">admin</span> / password <span className="text-amber-400">admin123</span></p>
-          </div>
-
           <div className="mt-6 text-center">
             <p className="text-slate-400 text-sm">
               Belum punya akun?{' '}
