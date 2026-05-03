@@ -50,7 +50,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 <span className="text-slate-900 font-bold text-lg">P</span>
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-amber-400 to-amber-600 bg-clip-text text-transparent">
-                Dana Masa Depan
+                Investasi Cuan
               </span>
             </Link>
 
@@ -174,12 +174,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2">
               <div className="w-7 h-7 bg-amber-500 rounded-md flex items-center justify-center">
-                <span className="text-slate-900 font-bold text-sm">P</span>
+                <span className="text-slate-900 font-bold text-sm">IC</span>
               </div>
-              <span className="font-bold text-slate-200">Dana Masa Depan</span>
+              <span className="font-bold text-slate-200">Investasi Cuan</span>
             </div>
             <p className="text-slate-500 text-sm text-center">
-              &copy; {new Date().getFullYear()} Dana Masa Depan adalah Platform investasi terpercaya.
+              &copy; {new Date().getFullYear()} Investasi Cuan adalah Platform investasi terpercaya sejak Mei 2026.
             </p>
             <div className="flex gap-4 text-sm text-slate-500">
               <Link to="/" className="hover:text-amber-400 transition-colors">Beranda</Link>
