@@ -27,7 +27,7 @@ export default function MemberBank() {
     currentUser.bankAccountName = form.bankAccountName;
     currentUser.walletAddress = form.walletAddress;
     saveUser(currentUser);
-    setSuccess('Data rekening berhasil disimpan');
+    setSuccess('Data Bank mu udah disimpan ya bro...!!!');
   };
 
   return (

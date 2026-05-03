@@ -23,19 +23,20 @@ export default function MemberPassword() {
     setSuccess('');
 
     if (!form.currentPassword || !form.newPassword || !form.confirmPassword) {
-      setError('Semua field wajib diisi');
+      setError('Semua wajib di isi ya.
+      ');
       return;
     }
     if (form.currentPassword !== currentUser.password) {
-      setError('Kata sandi saat ini salah');
+      setError('Kata sandi mu salah itu..!!');
       return;
     }
     if (form.newPassword.length < 6) {
-      setError('Kata sandi baru minimal 6 karakter');
+      setError('Kata sandi baru minimal 6 karakter ya...!!!');
       return;
     }
     if (form.newPassword !== form.confirmPassword) {
-      setError('Konfirmasi kata sandi tidak cocok');
+      setError('Gak cocok tuh konfirmasinya');
       return;
     }
 

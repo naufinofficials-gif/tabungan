@@ -22,7 +22,7 @@ export default function MemberProfile() {
     setSuccess('');
 
     if (!form.fullName || !form.email) {
-      setError('Nama lengkap dan email wajib diisi');
+      setError('Nama lengkap dan email wajib diisi ya.!!!');
       return;
     }
 

@@ -35,7 +35,7 @@ export default function MemberWithdraw() {
 
     const amt = parseInt(amount.replace(/\D/g, ''));
     if (!amt || amt <= 0) {
-      setError('Jumlah withdraw tidak valid');
+      setError('Jumlah withdraw gak valid bro...!!');
       return;
     }
     if (amt < minWithdraw) {
@@ -43,15 +43,15 @@ export default function MemberWithdraw() {
       return;
     }
     if (amt > currentUser.balance) {
-      setError('Saldo tidak mencukupi');
+      setError('Saldo anda gak mencukupi');
       return;
     }
     if (method === 'bank' && (!currentUser.bankName || !currentUser.bankAccount)) {
-      setError('Lengkapi data rekening bank Anda terlebih dahulu');
+      setError('Lengkapi data rekening banknya ya bro..');
       return;
     }
     if (method === 'ewallet' && !currentUser.walletAddress) {
-      setError('Lengkapi data E-Wallet Anda terlebih dahulu');
+      setError('Lengkapi data E-Wallet Anda');
       return;
     }
 
@@ -73,7 +73,7 @@ export default function MemberWithdraw() {
       currentUser.balance -= amt;
       saveUser(currentUser);
 
-      setSuccess('Pengajuan withdraw berhasil. Menunggu persetujuan admin.');
+      setSuccess('Pengajuan withdraw berhasil. Tunggu...ntar lagi diproses admin kok...');
       setAmount('');
       setLoading(false);
     }, 800);

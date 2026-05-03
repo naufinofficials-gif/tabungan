@@ -26,19 +26,19 @@ export default function MemberDeposit() {
 
     const amt = parseInt(amount.replace(/\D/g, ''));
     if (!amt || amt <= 0) {
-      setError('Jumlah investasi tidak valid');
+      setError('Jumlah Invesnya yang benarlah bro...!!');
       return;
     }
     if (!selectedPlanObj) {
-      setError('Pilih plan investasi');
+      setError('Pilih aja plannya..');
       return;
     }
     if (amt < selectedPlanObj.minInvest) {
-      setError(`Minimal investasi untuk plan ini adalah ${formatRp(selectedPlanObj.minInvest)}`);
+      setError(`Investasinya minimal adalah ${formatRp(selectedPlanObj.minInvest)}`);
       return;
     }
     if (amt > selectedPlanObj.maxInvest) {
-      setError(`Maksimal investasi untuk plan ini adalah ${formatRp(selectedPlanObj.maxInvest)}`);
+      setError(`Maksimal investasinya untuk Plan ini adalah ${formatRp(selectedPlanObj.maxInvest)}`);
       return;
     }
 
@@ -55,7 +55,7 @@ export default function MemberDeposit() {
         approvedAt: null,
       };
       saveDeposit(deposit);
-      setSuccess('Deposit berhasil diajukan. Menunggu persetujuan admin.');
+      setSuccess('Deposit berhasil diajukan. Ntar lagi diserujuin admin tuh..!!!.');
       setAmount('');
       setLoading(false);
     }, 800);
@@ -65,7 +65,7 @@ export default function MemberDeposit() {
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <div className="mb-8">
         <h1 className="text-2xl font-bold text-white">Deposit Investasi</h1>
-        <p className="text-slate-400">Ajukan deposit untuk memulai investasi Anda</p>
+        <p className="text-slate-400">Depositlah untuk memulai investasi Anda</p>
       </div>
 
       {success && (
@@ -156,11 +156,11 @@ export default function MemberDeposit() {
             <div className="space-y-3 text-sm text-slate-400">
               <div className="flex items-start gap-3">
                 <AlertCircle size={16} className="text-amber-400 mt-0.5 shrink-0" />
-                <p>Deposit wajib disetujui oleh admin sebelum investasi aktif.</p>
+                <p>Ntar, kalo udh disetujui admin, maka investasi anda akan mulai menghasilkan  profit.</p>
               </div>
               <div className="flex items-start gap-3">
                 <Wallet size={16} className="text-emerald-400 mt-0.5 shrink-0" />
-                <p>Profit masuk otomatis setiap 24 jam ke saldo Anda.</p>
+                <p>Profit masuk otomatis setiap 24 jam sekali ya.</p>
               </div>
               <div className="flex items-start gap-3">
                 <ArrowDownLeft size={16} className="text-blue-400 mt-0.5 shrink-0" />
