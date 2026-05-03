@@ -30,10 +30,10 @@ export default function Home() {
   ];
 
   const stats = [
-    { label: 'Total Member', value: '12,500+', icon: Users },
-    { label: 'Total Investasi', value: 'Rp 8.5M', icon: Wallet },
-    { label: 'Profit Dibayar', value: 'Rp 2.1M', icon: BarChart3 },
-    { label: 'Hari Beroperasi', value: '1,200+', icon: Award },
+    { label: 'Total Member', value: '500+', icon: Users },
+    { label: 'Total Investasi', value: 'Rp 2.750.000,-', icon: Wallet },
+    { label: 'Profit Dibayar', value: 'Rp 1.350.000,-', icon: BarChart3 },
+    { label: 'Hari Beroperasi', value: '200+', icon: Award },
   ];
 
   return (
@@ -98,7 +98,7 @@ export default function Home() {
                 <div className="flex items-center justify-between mb-6">
                   <div>
                     <p className="text-slate-400 text-sm">Total Saldo</p>
-                    <p className="text-3xl font-bold text-white">Rp 12.500.000</p>
+                    <p className="text-3xl font-bold text-white">Rp 12.500.000,-</p>
                   </div>
                   <div className="w-12 h-12 bg-emerald-500/10 rounded-xl flex items-center justify-center">
                     <Wallet className="text-emerald-400" size={24} />
@@ -112,7 +112,7 @@ export default function Home() {
                       </div>
                       <span className="text-sm text-slate-300">Profit Hari Ini</span>
                     </div>
-                    <span className="text-emerald-400 font-semibold text-sm">+Rp 250.000</span>
+                    <span className="text-emerald-400 font-semibold text-sm">Rp 250.000,-</span>
                   </div>
                   <div className="flex items-center justify-between p-3 bg-slate-800/50 rounded-lg">
                     <div className="flex items-center gap-3">
@@ -199,7 +199,7 @@ export default function Home() {
               Siap Memulai Investasi?
             </h2>
             <p className="text-slate-800 mb-8 max-w-xl mx-auto">
-              Daftar sekarang dan mulai perjalanan investasi Anda. Modal minimal hanya Rp 10.000.
+              Daftar sekarang dan mulai perjalanan investasi Anda. hanya dengan uang Rp 10.000,-
             </p>
             <Link
               to="/register"
