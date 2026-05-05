@@ -173,14 +173,14 @@ export default function MemberDeposit() {
             <h2 className="text-lg font-semibold text-white mb-4">Rekening Tujuan</h2>
             <div className="space-y-3">
               <div className="p-3 bg-slate-800/50 rounded-lg">
-                <p className="text-xs text-slate-500 mb-1">Bank BCA</p>
-                <p className="text-sm text-white font-medium">1234-5678-9012</p>
-                <p className="text-xs text-slate-400">a.n. PrimeInvest</p>
+                <p className="text-xs text-slate-500 mb-1">Sea Bank</p>
+                <p className="text-sm text-white font-medium">901434242142</p>
+                <p className="text-xs text-slate-400">a.n. Jhoni Purba</p>
               </div>
               <div className="p-3 bg-slate-800/50 rounded-lg">
-                <p className="text-xs text-slate-500 mb-1">DANA</p>
-                <p className="text-sm text-white font-medium">0812-3456-7890</p>
-                <p className="text-xs text-slate-400">a.n. PrimeInvest</p>
+                <p className="text-xs text-slate-500 mb-1">GoPay</p>
+                <p className="text-sm text-white font-medium">0895 0116 5988</p>
+                <p className="text-xs text-slate-400">a.n. Jhoni Purba</p>
               </div>
             </div>
           </div>
