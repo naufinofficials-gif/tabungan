@@ -55,7 +55,7 @@ export default function MemberDeposit() {
         approvedAt: null,
       };
       saveDeposit(deposit);
-      setSuccess('Deposit berhasil diajukan. Ntar lagi diserujuin admin tuh..!!!.');
+      setSuccess('Deposit berhasil diajukan. Ntar lagi disetujuin admin tuh..!!!.');
       setAmount('');
       setLoading(false);
     }, 800);
